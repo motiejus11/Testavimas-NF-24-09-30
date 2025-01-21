@@ -1,0 +1,29 @@
+
+Nusistatyti, ka testuosim?
+Kiekiena request
+Ka mes requeste galime testuoti?
+*Laikas, per kuri grižta atsakymas iš API. 1000ms, idealus iki 300ms, iki 200ms
+*Pagal dokumentacija yra n postu, galime patikrinti ar tai tiesa
+*Status kodas. 200 arba (POST) 201 viskas yra gerai, 404 - klaida
+*Atsakymas REST API JSON formatu arba XML formatu
+Koks body mums sugrizo? JSON formatu
+*Paties masyvo struktura ir duomenis
+*Koks konkretus duomuo grižo ir t.t.
+*Atsakymo dydis(MB, KB ir t.t.)
+*Kokius cookies gaunam?
+*Atsakymo headerius
+_____________________________________
+*konkretus funkcionalumas. Request atlieka duomenu filtravima.
+1000 postu, bet mums reikia atvaizduoti tik 15.
+Specifinis parametras, kuri apriboja postu kieki.
+*siunciamu parametru testavimas
+
+// server headers i DI arba i Google
+
+Testavimo eiga:
+1. Apsirašyti testavimo scenarijus
+2. Ivykdyti pacius testus
+3. Suformuoti tam tikra ataskaita apie testus.
+
+Pre-request - kodo gabaliukas, ivykdomas prieš siunciant užklausa
+Post-response - kodo gabaliukas, ivykdomas jau gavus atsakyma iš API
