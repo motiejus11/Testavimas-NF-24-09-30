@@ -1,0 +1,10 @@
+1.  API atsinaujino vakar
+2. Baltosios dežes testavima(API koda)
+3. Testus kuriuos mes aprašome kolekcijoje
+4. Programuotojas kiekviena karta
+git push komanda
+gitas paleidžia postmano kolekcijos testus
+
+//Prie API reikia prisijungti???
+1 iteracija - ivyksta testavimas neprisijungusiam vartotojui ir 1 iteracijos pabaigoje prisijungiama
+2 iteracija atliekamia testavima jau prisijunusiam vartotojui

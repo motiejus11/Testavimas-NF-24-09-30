@@ -1,0 +1,12 @@
+1. Sukurti Postman Collection pagal https://dummyjson.com/
+2. Pagal API dokumentacija apsirašyti visus request.
+3. Aprašyti testus:
+	3.1 Patikrinti kiekvieno request status koda
+	3.2 Patikrinti kiekvieno request formata
+	3.3 Patikrinti, ar kiekvienas response JSON neturi 'error elemento'
+
+4. Parašyti testa 'https://dummyjson.com/comments' request'ui, kuris patikrina, kiek komentaru turi Post, kurio id=46
+5. Sukelti šia kolekcija i GitHub
+
+
+Papildomai:
