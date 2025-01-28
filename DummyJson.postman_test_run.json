@@ -1,0 +1,96 @@
+{
+	"id": "11f42d9f-2e36-4c88-990f-827c673d246e",
+	"name": "DummyJson",
+	"timestamp": "2025-01-27T07:31:39.609Z",
+	"collection_id": "41079087-03521050-d05f-4c63-a4d8-0ba97d752eda",
+	"folder_id": 0,
+	"environment_id": "41079087-34f80d87-7011-4d43-a2ea-3a85d0d86e46",
+	"totalPass": 2,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2025-01-27T07:31:38.605Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "dd0d1658-7fdc-49e5-a07a-b2c6930a4f27",
+			"name": "Login",
+			"url": "https://dummyjson.com/auth/login",
+			"time": 163,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type is one of json, webp, jpg, or png": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is one of json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				163
+			],
+			"allTests": [
+				{
+					"Content-Type is one of json, webp, jpg, or png": true
+				}
+			]
+		},
+		{
+			"id": "1eaddffe-5d68-44b7-8c11-90e6c1a6a0a5",
+			"name": "RefreshSession",
+			"url": "https://dummyjson.com/auth/refresh",
+			"time": 169,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type is one of json, webp, jpg, or png": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is one of json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				169
+			],
+			"allTests": [
+				{
+					"Content-Type is one of json, webp, jpg, or png": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 332,
+	"collection": {
+		"requests": [
+			{
+				"id": "dd0d1658-7fdc-49e5-a07a-b2c6930a4f27",
+				"method": "POST"
+			},
+			{
+				"id": "8140ca02-0d1e-462e-946d-77ac7e4516ba",
+				"method": "GET"
+			},
+			{
+				"id": "1eaddffe-5d68-44b7-8c11-90e6c1a6a0a5",
+				"method": "POST"
+			},
+			{
+				"id": "c7088e4b-aecb-4b96-89b2-93993e628d52",
+				"method": "GET"
+			},
+			{
+				"id": "8d43a962-29e4-4cd7-ad9c-45f711cc2add",
+				"method": "GET"
+			}
+		]
+	}
+}
